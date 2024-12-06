@@ -2434,5 +2434,13 @@ Use this if changes from other devices are not appearing on this device. This wi
   actionsForNotebook: (title: string) => t`Actions for notebook: ${title}`,
   actionsForTag: (title: string) => t`Actions for tag: ${title}`,
   recents: () => t`Recents`,
-  removeFromRecents: () => t`Remove from recents`
+  removeFromRecents: () => t`Remove from recents`,
+  viewAllLimits: () => `View all limits`,
+  freePlan: () => t`Free plan`,
+  proPlan: () => t`Pro plan`,
+  essentialPlan: () => t`Essential plan`,
+  believerPlan: () => t`Believer plan`,
+  storage: () => t`Storage`,
+  used: () => t`used`,
+  editProfile: () => t`Edit profile`
 };
